@@ -46,6 +46,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Materiais\DestroiObjeto.cs" />
+     <Compile Include="Assets\Materiais\GiraItem.cs" />
      <Compile Include="Assets\Materiais\MoveCamera.cs" />
      <Compile Include="Assets\Materiais\MovimentoBolinha.cs" />
  <Reference Include="UnityEngine.UI">

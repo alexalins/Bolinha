@@ -9,11 +9,11 @@ public class MoveCamera : MonoBehaviour {
 
 	void Start () {
 		
-		posicaoInicial = transform.position;
+		posicaoInicial = transform.position - objetoBolinha.transform.position;
 		
 	}
 
-	void Update () {
+	void LateUpdate () {
 		transform.position = objetoBolinha.transform.position + posicaoInicial;
 	}
 }
