@@ -5,6 +5,7 @@ using UnityEngine;
 public class DestroiObjeto : MonoBehaviour {
 
 	void Start () {
+		//apagando objeta memoria
 		Invoke ("ApagaObjeto", 1.5f);
 	}
 
@@ -12,6 +13,7 @@ public class DestroiObjeto : MonoBehaviour {
 	}
 
 	void ApagaObjeto(){
+		//destruindo
 		Destroy (this.gameObject);
 	}
 }

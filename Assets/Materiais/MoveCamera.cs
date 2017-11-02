@@ -8,12 +8,13 @@ public class MoveCamera : MonoBehaviour {
 	private Vector3  posicaoInicial;
 
 	void Start () {
-		
+		//posicao inicial da camera
 		posicaoInicial = transform.position - objetoBolinha.transform.position;
 		
 	}
 
 	void LateUpdate () {
+		//posicao da camera 
 		transform.position = objetoBolinha.transform.position + posicaoInicial;
 	}
 }
